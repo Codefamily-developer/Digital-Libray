@@ -1,0 +1,33 @@
+.header-content{
+    min-height: 91.7vh;
+    background-color: rgba(0, 153, 255, 0.833);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--black-color);
+    /* color: white; */
+}
+.header-content .main{
+    margin-bottom: 250px;
+}
+
+.header-title{
+    font-size: 4.2rem;
+    text-transform: capitalize;
+}
+.header-title span{
+    /* color: rgb(0, 26, 255); */
+    color: var(--white-color);
+}
+.header-text{
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    max-width: 770px;
+    font-size: 22px;
+    opacity: 0.9;
+    /* color: var(--white-color); */
+    color: var(--black-color);
+    font-weight: 400;
+}
